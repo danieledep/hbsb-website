@@ -1,3 +1,7 @@
+img {
+  opacity: 75%;
+}
+
 .row {
   --bs-gutter-x: 0;
 }
@@ -19,6 +23,11 @@
   width: 100%;
 }
 
+.scribbles {
+  mix-blend-mode: screen;
+  opacity: 50%;
+}
+
 .nav {
   background-color: rgba(0, 0, 0, 0.9);
 }
@@ -33,21 +42,21 @@
   }
 }
 
+/*
 @media (min-width: 1200px) {
   .logo-cover {
     margin: 15em 1em 2em 1em;
   }
-}
+} 
+*/
 
 body {
-  background: rgba(0, 0, 0, 0.562) repeat url(images/black-bg.jpg) 50%;
-  opacity: 88%;
-  border-left: 100px beige;
+  background: rgba(7, 4, 4, 1) repeat url(images/black-bg.jpg) 50%;
 }
 
 h1 {
   font-family: "Averia Libre";
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.7);
   width: 80%;
 }
 
@@ -73,8 +82,6 @@ p {
 }
 
 .pictures {
-  opacity: 83%;
-  mix-blend-mode: overlay;
   box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 1);
   border: 12px solid white;
   margin-bottom: 1.7em;

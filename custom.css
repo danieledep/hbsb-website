@@ -1,0 +1,86 @@
+.row {
+  --bs-gutter-x: 0;
+}
+
+.container {
+  padding: 2em;
+}
+
+.col {
+  padding: 1em;
+  flex: auto;
+}
+
+.logo-cover {
+  margin: 2em 1em 2em 1em;
+}
+
+.social {
+  width: 100%;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media (min-width: 992px) {
+  .col {
+    flex: 1 0 0%;
+  }
+
+  .social {
+    width: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logo-cover {
+    margin: 15em 1em 2em 1em;
+  }
+}
+
+body {
+  background: rgba(0, 0, 0, 0.562) repeat url(images/black-bg.jpg) 50%;
+  opacity: 88%;
+  border-left: 100px beige;
+}
+
+h1 {
+  font-family: "Averia Libre";
+  color: rgba(255, 255, 255, 0.9);
+  width: 80%;
+}
+
+h3 {
+  font-family: "Rock Salt";
+  font-size: 1em;
+  line-height: 1.4em;
+  letter-spacing: 0.1em;
+  color: rgba(116, 116, 116, 0.7);
+  width: 80%;
+  margin-left: 0.6em;
+}
+
+p {
+  font-family: "Roboto Slab";
+  font-size: 1.4em;
+  color: rgba(240, 240, 240, 0.8);
+  width: 90%;
+}
+
+.brush-stroke {
+  background: center / contain no-repeat url(images/brush.png);
+}
+
+.pictures {
+  opacity: 83%;
+  mix-blend-mode: overlay;
+  box-shadow: 1px 2px 2px hsl(0deg 0% 0% / 1);
+  border: 12px solid white;
+  margin-bottom: 1.7em;
+}
+
+.testimonials {
+  margin-top: 5em;
+  width: 95%;
+}

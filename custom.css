@@ -26,6 +26,7 @@ img {
 .scribbles {
   mix-blend-mode: screen;
   opacity: 50%;
+  width: 100%;
 }
 
 .nav {

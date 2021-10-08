@@ -84,3 +84,60 @@ p {
   margin-top: 5em;
   width: 95%;
 }
+
+/* 
+
+UNDERLINE EFFECT FROM: 
+https://tympanus.net/Development/LineHoverStyles/
+
+*/
+
+.link {
+  cursor: pointer;
+  position: relative;
+  white-space: nowrap;
+}
+
+.link::before,
+.link::after {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 100%;
+  left: 0;
+  pointer-events: none;
+}
+
+.link__graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  fill: none;
+  stroke: rgb(180, 180, 180);
+  stroke-width: 2px;
+}
+
+.link__graphic--stroke path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+
+.link:hover .link__graphic--stroke path {
+  stroke-dashoffset: 0;
+}
+
+/* Trick from https://css-tricks.com/a-trick-that-makes-drawing-svg-lines-way-easier/ */
+
+.link__graphic--scribble {
+  top: 250%;
+}
+
+.link__graphic--scribble path {
+  transition: stroke-dashoffset 0.6s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.link:hover .link__graphic--scribble path {
+  transition-timing-function: cubic-bezier(0.8, 1, 0.7, 1);
+  transition-duration: 0.3s;
+}

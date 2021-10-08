@@ -1,5 +1,5 @@
 # hbsb-website
 
-![screenshot](https://github.com/danieledep/REW_P5/blob/master/assets/Screenshot.png)   
+![screenshot](https://github.com/danieledep/hbsb-website/blob/main/images/logo-black.svg)   
 
 Landing page for Heartbreak Surfboards

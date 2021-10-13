@@ -8,3 +8,5 @@ Landing page for Heartbreak Surfboards
 - [ ] logo svg draw animation
 - [ ] some image parallax effect
 - [ ] contacts scribble exiting left to right
+- [ ] water drops effect, [tutorial](https://tympanus.net/codrops/2015/11/04/rain-water-effect-experiments/)
+- [ ] levanto wave forecast
